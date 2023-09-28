@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 360px;
+            margin: 0 auto; 
+        }
+
+        h1 {
+            color: #d60f6c; 
+        }
+
+        form input {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 8px;
+            }
+
+        textarea {
+            width: 100%;
+            resize: none;
+            padding: 8px;
+        }
+
+        button {
+            padding: 8px;
+            border: none;
+            border-radius: 25px;
+            margin-top: 8px;
+            background-color: #d60f6c;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        button:active {
+            opacity: 0.5;
+        }
+</style>
+</head>
+<body>
+   <div class="container">
+    <h1>Formulário de Contato</h1>
+    <form action="https://formsubmit.co/radijosirm@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+    <input type="text" name="name" class="form-control" placeholder="digite o seu nome" required>
+    <input type="email" name="email" class="form-control" placeholder="digite seu email" required>
+    <textarea name="message" class="form-control" placeholder="digite sua mensagem"  rows="10"></textarea>
+    <button type="submit">Enviar mensagem</button>
+    </form>
+   </div> 
+</body>
+</html>
