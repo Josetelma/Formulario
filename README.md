@@ -1,7 +1,7 @@
 <h1>Formulário</h1>
 <br>
 <br>
-<h2>Este foi o meu primeiro formulário de teste. Este formuláriosimples foi projetado como uma introdução à criação de interfaces interativas e à coleta de dados dos usuários. Embora simples, ele representa um passo importante no aprendizado e na prática das tecnologias de desenvolvimento web.
+<h2>Este foi o meu primeiro formulário de teste. Este formulário simples foi projetado como uma introdução à criação de interfaces interativas e à coleta de dados dos usuários. Embora simples, ele representa um passo importante no aprendizado e na prática das tecnologias de desenvolvimento web.
 O formulário de teste é uma ferramenta básica que permite aos usuários inserirem informações em campos designados. Pode incluir campos de texto, caixas de seleção, botões de opção e outras opções para coletar dados ou feedback dos usuários. Através deste formulário, os desenvolvedores podem aprender como criar, estilizar e validar campos, além de processar e armazenar os dados inseridos pelos usuários.</h2>
 <br>
 <h2>Linguagens de Programação Utilizadas:</h2>
